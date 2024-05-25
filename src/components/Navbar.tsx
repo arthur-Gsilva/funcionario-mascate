@@ -14,7 +14,7 @@ export const Navbar = () => {
     const pathname = usePathname()
 
     return(
-        <div className="bg-[#825734] h-screen w-40 flex flex-col justify-center items-center">
+        <div className="bg-[#825734] min-h-screen w-40 flex flex-col justify-center items-center">
             <div className="flex flex-col gap-10 ">
                 <div>
                     <Button 

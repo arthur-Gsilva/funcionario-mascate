@@ -2,13 +2,17 @@ import { BoxContent } from "@/components/BoxContent"
 
 const page = () => {
     return(
-        <div className="col-center pt-10">
-            <div className=" w-full flex items-center justify-evenly">
-                <div>
-                    <h2 className="text-center mb-5 text-2xl">Fila</h2>
+        <div className="col-center py-8 w-full h-full">
+            <div className=" w-full flex items-center justify-evenly 2xl:h-2/3">
+                <div className="h-full">
+                    <h2 
+                        className="text-center mb-5 text-2xl 2xl:text-4xl"
+                    >
+                        Fila
+                    </h2>
 
-                    <div className="bg-white flex rounded max-h-96 overflow-hidden font-semibold">
-                        <div className="w-36 overflow-y-auto">
+                    <div className="bg-white flex rounded h-full overflow-hidden font-semibold ">
+                        <div className="w-36 overflow-y-auto 2xl:w-48">
                             <div className="bg-[#9DA6B9] p-1 pl-3 rounded-s text-white ">Esperando</div>
                             <div className="col-center gap-4 text-3xl py-3">
                                 <p>666</p>
@@ -45,7 +49,7 @@ const page = () => {
                 </div>
             </div>
 
-            <div>
+            <div className="mt-16">
                 <h5 className="text-center">Cancelados: </h5>
                 <div className="bg-white flex items-center gap-5 text-red-700 p-3 rounded text-xl font-bold">
                     <span>234</span>
