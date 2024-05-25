@@ -24,7 +24,7 @@ const page = () => {
                         placeholder="Pesquisar comanda"
                     />
 
-                    <Button>Filtrar</Button>
+                    <Button className="bg-[#825734]">Filtrar</Button>
                 </div>
                 
             </div>

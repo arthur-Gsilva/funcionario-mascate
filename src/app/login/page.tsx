@@ -4,16 +4,19 @@ import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { FaUserTie } from "react-icons/fa6";
 import { z } from "zod";
 
 const formSchema = z.object({
     name: z.string().min(2, 'Digite seu nome'),
-    password: z.string()
+    password: z.string().min(2, 'Digite sua senha corretamente')
 })
 
 const page = () => {
+
+    const router = useRouter()
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
@@ -24,7 +27,7 @@ const page = () => {
     })
 
     const onSubmit = () => {
-        alert('foi')
+        router.push('/reservas')
     }
 
     return(
