@@ -55,7 +55,7 @@ export const OrderContent = ({ data }: Props) => {
                 }
 
                 {data.status === 'Feito' &&
-                    <Button size='sm' className="bg-[#825734]">Finalizar</Button>
+                    <Button size='sm' className="bg-[#825734] p-3">Finalizar</Button>
                 }
             </div>
         </div>
