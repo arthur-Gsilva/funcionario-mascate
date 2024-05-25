@@ -25,7 +25,7 @@ export const OrderContent = ({ data }: Props) => {
 
     return(
         <div 
-            className="flex items-center justify-around p-1 border-2 border-[#825734]"
+            className="flex items-center justify-around p-1 border-2 border-[#825734] min-[2000px]:text-3xl min-[2000px]:p-3"
             style={{color: data.status === 'Reservado' ? '#7175D4' : 'initial'}}
         >
             <div>

@@ -3,7 +3,7 @@ import { BoxContent } from "@/components/BoxContent"
 const page = () => {
     return(
         <div className="col-center">
-            <h1 className="mb-8 text-xl">Reservas</h1>
+            <h1 className="mb-8 text-xl min-[2000px]:text-5xl">Reservas</h1>
 
             <div className="flex items-center gap-8">
                 <BoxContent 
@@ -21,8 +21,8 @@ const page = () => {
             </div>
 
             <div className="my-8 text-center bg-[#928C74] text-white p-5 rounded-md">
-                <h2 className="text-xl mb-3 2xl:text2xl">Mesas reservadas</h2>
-                <p className="text-3xl">1</p>
+                <h2 className="text-xl mb-3 min-[2000px]:text-4xl">Mesas reservadas</h2>
+                <p className="text-3xl min-[2000px]:text-6xl">1</p>
             </div>
 
             <div className="flex items-center gap-8">

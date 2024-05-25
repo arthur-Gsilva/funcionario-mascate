@@ -7,7 +7,7 @@ import { orders } from "@/utils/orders"
 const page = () => {
     return(
         <div className="col-center pt-10 w-3/4 mx-auto gap-8">
-            <div className="w-full flex items-center justify-between">
+            <div className="w-full flex items-center justify-between min-[2000px]:text-3xl">
                 <div>Aplicar filtro:</div>
 
                 <div className="flex gap-4">
