@@ -27,7 +27,7 @@ const page = () => {
     })
 
     const onSubmit = () => {
-        router.push('/reservas')
+        router.push('/fila')
     }
 
     return(

@@ -15,25 +15,25 @@ const page = () => {
                         <div className="w-36 overflow-y-auto 2xl:w-48  min-[2000px]:w-full">
                             <div className="bg-[#9DA6B9] p-1 pl-3 rounded-s text-white ">Esperando</div>
                             <div className="col-center gap-4 text-xl md:text-5xl py-3">
-                                <p>666</p>
-                                <p>666</p>
+                                <p>123</p>
+                                <p>321</p>
                             </div>
                         </div>
 
                         <div className="w-36 overflow-y-auto min-[2000px]:w-full">
                             <div className="bg-[#3E8658] p-1 pl-3 rounded-e text-white">Atendidos</div>
                             <div className="col-center gap-4 text-xl md:text-5xl py-3 text-[#3E8658]">
-                                <p>666</p>
-                                <p>666</p>
-                                <p>666</p>
-                                <p>666</p>
-                                <p>666</p>
+                                <p>122</p>
+                                <p>001</p>
+                                <p>546</p>
+                                <p>864</p>
+                                <p>743</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-center gap-4 min-[2000px]:grid min-[2000px]:grid-cols-2">
+                <div className="col-center gap-4 grid grid-cols-2 ">
                     <BoxContent 
                         title="Clientes Presentes"
                         number={43}
