@@ -8,15 +8,15 @@ const page = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-8">
                 <BoxContent 
                     title="Clientes Presentes"
-                    number={23}
+                    number={43}
                 />
                 <BoxContent 
                     title="Mesas ocupadas"
                     number={9}
                 />
                 <BoxContent 
-                    title="Clientes Presentes"
-                    number={23}
+                    title="Mesas vazias"
+                    number={6}
                 />
             </div>
 
@@ -28,15 +28,15 @@ const page = () => {
             <div className="grid grid-cols-2 md:grid-cols-3 items-center gap-8">
                 <BoxContent 
                     title="Cadeiras disponíveis"
-                    number={23}
+                    number={11}
                 />
                 <BoxContent 
-                    title="Mesas vazias"
-                    number={9}
+                    title="Cadeiras reservadas"
+                    number={12}
                 />
                 <BoxContent 
                     title="cadeiras vazias"
-                    number={23}
+                    number={41}
                 />
             </div>
         </div>
